@@ -1,3 +1,10 @@
+import join from "../assets/join.svg";
+import arrow from "../assets/arrow.svg";
+import pencil from "../assets/pencil.svg";
+import brand from "../assets/brand.svg";
+import frontend from "../assets/frontend.svg";
+import menu from "../assets/menu.svg";
+
 const Body = () => {
   return (
     <div className="flex flex-2">
@@ -12,7 +19,7 @@ const Body = () => {
           </h2>
           <div className="bg-black mt-6 flex flex-row items-center gap-4 px-2 py-2 rounded-full w-fit cursor-pointer">
             <p className="pl-5 text-white text-[18px]">Join Now</p>
-            <img src="/src/assets/arrow.svg" alt="Join Now" />
+            <img src={join} alt="Join Now" />
           </div>
         </div>
 
@@ -22,7 +29,7 @@ const Body = () => {
             <div className=" flex flex-row gap-6 items-center">
               {" "}
               <img
-                src="/src/assets/pencil.svg"
+                src={pencil}
                 alt="pencil image"
                 className="h-22 w-22"
               />
@@ -39,8 +46,8 @@ const Body = () => {
             <div className=" flex flex-row gap-6 items-center">
               {" "}
               <img
-                src="/src/assets/brand.svg"
-                alt="body image"
+                src={brand}
+                alt="brand image"
                 className="h-22 w-22"
               />
               <div className="flex flex-col gap-1">
@@ -50,13 +57,13 @@ const Body = () => {
                 <p className="text-black text-[24px] font-semibold">Branding</p>
               </div>
             </div>
-            <img src="/src/assets/menu.svg" alt="menu" />
+            <img src={menu} alt="menu" />
           </div>
           <div className="px-4 py-4 bg-white rounded-4xl flex flex-row gap-28 items-center w-full">
             <div className=" flex flex-row gap-6 items-center">
               {" "}
               <img
-                src="/src/assets/frontend.svg"
+                src={frontend}
                 alt="front end image"
                 className="h-22 w-22"
               />

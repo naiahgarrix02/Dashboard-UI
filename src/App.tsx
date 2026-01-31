@@ -1,4 +1,5 @@
 import "./App.css";
+import Body from "./components/Body";
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
 
@@ -9,6 +10,7 @@ function App() {
 
       <div className="flex-1 ml-70 flex flex-col">
         <Topbar />
+        <Body />
       </div>
     </div>
   );

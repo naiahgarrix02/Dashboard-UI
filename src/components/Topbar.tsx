@@ -10,7 +10,7 @@ const Topbar = () => {
         <Search />
        </div>
        
-        <div className="flex items-center gap-4 mx-4 flex-shrink-0">
+        <div className="flex items-center gap-4 mx-4 shrink-0">
           <div className="border border-gray-300 rounded-full p-1">
             <img
               src={email}
@@ -30,13 +30,13 @@ const Topbar = () => {
      
 
       <div className="w-px h-6 bg-gray-400"></div>
-      <div className="flex items-center gap-2 flex-shrink-0">
+      <div className="flex items-center gap-2 shrink-0">
         <img
           src={memoji}
           alt="Profile"
           className="h-12 w-12 p-1 rounded-full"
         />
-        <p className="text-black font-medium font-[16px]">Jason Ranti</p>
+        <p className="text-black  font-[16px]">Jason Ranti</p>
       </div>
     </div>
   );

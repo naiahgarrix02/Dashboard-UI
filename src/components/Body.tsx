@@ -12,7 +12,7 @@ const Body = () => {
           <p className="text-white text-[14px] tracking-widest">
             ONLINE COURSE
           </p>
-          <h2 className="text-white text-[54px] leading-16 font-medium mt-2">
+          <h2 className="text-white text-[54px] leading-16 font-medium mt-3">
             Sharpen Your Skills with <br />
             Professional Online Courses{" "}
           </h2>

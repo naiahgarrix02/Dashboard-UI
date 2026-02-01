@@ -39,7 +39,7 @@ const Body = () => {
                 <p className="text-black text-[24px] font-semibold">UI/UX Design</p>
               </div>
             </div>
-            <img src="/src/assets/menu.svg" alt="menu" />
+            <img src={menu} alt="menu" />
           </div>
           <div className="px-4 py-4 bg-white rounded-4xl flex flex-row gap-28 items-center w-full">
             <div className=" flex flex-row gap-6 items-center">
@@ -73,7 +73,7 @@ const Body = () => {
                 <p className="text-black text-[24px] font-semibold">Front-End</p>
               </div>
             </div>
-            <img src="/src/assets/menu.svg" alt="menu" />
+            <img src={menu} alt="menu" />
           </div>
           
         </div>

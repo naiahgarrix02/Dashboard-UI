@@ -1,4 +1,3 @@
-import join from "../assets/join.svg";
 import arrow from "../assets/arrow.svg";
 import pencil from "../assets/pencil.svg";
 import brand from "../assets/brand.svg";
@@ -19,7 +18,7 @@ const Body = () => {
           </h2>
           <div className="bg-black mt-6 flex flex-row items-center gap-4 px-2 py-2 rounded-full w-fit cursor-pointer">
             <p className="pl-5 text-white text-[18px]">Join Now</p>
-            <img src={join} alt="Join Now" />
+            <img src={arrow} alt="Join Now" />
           </div>
         </div>
 

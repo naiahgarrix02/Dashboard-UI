@@ -1,14 +1,25 @@
-@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url("https://fonts.cdnfonts.com/css/general-sans");
 @import "tailwindcss";
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 :root {
-  font-family: General Sans, sans-serif;
+  font-family:
+    General Sans,
+    sans-serif;
   line-height: 1.5;
 
   color-scheme: light dark;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
-

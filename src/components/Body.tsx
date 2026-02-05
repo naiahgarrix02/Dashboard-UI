@@ -213,7 +213,7 @@ const Body = () => {
         </div>
       </div>
       <div>
-        <div className="mr-6 rounded-2xl flex bg-white h-[225] w-96 p-4">
+        <div className="mr-6 rounded-2xl flex bg-white h-238 w-96 p-4">
           <div className="flex flex-col w-full gap-2">
             <div className="flex flex-row items-center justify-between mb-4">
               <p className="text-black text-[20px] font-medium">Statistic</p>

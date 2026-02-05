@@ -16,6 +16,12 @@ import brands from "../assets/branding-sing.svg";
 import frontends from "../assets/frontend-sing.svg";
 import heart from "../assets/heart.svg";
 import memoji7 from "../assets/memoji7.svg";
+import WeeklyActivityCharts from "./WeeklyActivityCharts";
+import add from "../assets/add.svg";
+import memofr1 from "../assets/memofr1.svg";
+import memofr2 from "../assets/memofr2.svg";
+import memofr3 from "../assets/memofr3.svg";
+import follow from "../assets/follow.svg";
 
 const Body = () => {
   return (
@@ -207,8 +213,8 @@ const Body = () => {
         </div>
       </div>
       <div>
-        <div className="mr-6 rounded-2xl flex bg-white h-210 w-96 p-4">
-          <div className="flex flex-col w-full gap-4">
+        <div className="mr-6 rounded-2xl flex bg-white h-[225] w-96 p-4">
+          <div className="flex flex-col w-full gap-2">
             <div className="flex flex-row items-center justify-between mb-4">
               <p className="text-black text-[20px] font-medium">Statistic</p>
               <img src={menu} alt="menu" className="h-6 w-6" />
@@ -217,7 +223,7 @@ const Body = () => {
               <img
                 src={memoji7}
                 alt="statistic image"
-                className="h-48 w-full"
+                className="h-44 w-full"
               />
               <div className="gap-4">
                 <h2 className="text-black text-[20px] font-medium">
@@ -226,6 +232,99 @@ const Body = () => {
                 <p className="text-gray-400 text-[14px]">
                   Continue your learning to achieve your target!
                 </p>
+              </div>
+            </div>
+            <div className="p-4">
+              <WeeklyActivityCharts />
+            </div>
+            <div>
+              <div className="flex flex-row justify-between items-center ">
+                <h2 className="text-black text-[20px] font-medium">
+                  Your Mentor
+                </h2>
+                <img src={add} alt="mentor image" className="h-8 w-8" />
+              </div>
+              <div className="p-6 bg-[#f5f6fb] rounded-3xl mt-4 gap-6 flex flex-col">
+                <div className="flex flex-row border-2 border-b-gray-300 pb-4 border-dashed">
+                  <div className="flex items-center">
+                    <img
+                      src={memofr3}
+                      alt="Memoji"
+                      className="h-10 w-10 mr-4"
+                    />
+                    <div className="gap-2">
+                      <h2 className="text-[14px] font-medium text-black">
+                        Pahdang Satrio
+                      </h2>
+                      <p className="text-[14px] font-regular text-gray-500">
+                        Mentor
+                      </p>
+                    </div>
+                  </div>
+                  <button className="ml-auto border border-[#6F62E5] bg-white px-4 py-1 rounded-full text-[#6F62E5] text-[14px]">
+                    <img
+                      src={follow}
+                      alt="Follow"
+                      className="h-4 w-4 inline-block mr-2"
+                    />
+                    Follow
+                  </button>
+                </div>
+                <div className="flex flex-row border-2 border-b-gray-300 pb-4 border-dashed">
+                  <div className="flex items-center">
+                    <img
+                      src={memofr2}
+                      alt="Memoji"
+                      className="h-10 w-10 mr-4"
+                    />
+                    <div className="gap-2">
+                      <h2 className="text-[14px] font-medium text-black">
+                        Zakir Horizontal
+                      </h2>
+                      <p className="text-[14px] font-regular text-gray-500">
+                        Mentor
+                      </p>
+                    </div>
+                  </div>
+                  <button className="ml-auto border border-[#6F62E5] bg-white px-4 py-1 rounded-full text-[#6F62E5] text-[14px]">
+                    <img
+                      src={follow}
+                      alt="Follow"
+                      className="h-4 w-4 inline-block mr-2"
+                    />
+                    Follow
+                  </button>
+                </div>
+                <div className="flex flex-row">
+                  <div className="flex items-center">
+                    <img
+                      src={memofr1}
+                      alt="Memoji"
+                      className="h-10 w-10 mr-4"
+                    />
+                    <div className="gap-2">
+                      <h2 className="text-[14px] font-medium text-black">
+                        Leonardo Samsul
+                      </h2>
+                      <p className="text-[14px] font-regular text-gray-500">
+                        Mentor
+                      </p>
+                    </div>
+                  </div>
+                  <button className="ml-auto border border-[#6F62E5] bg-white px-4 py-1 rounded-full text-[#6F62E5] text-[14px]">
+                    <img
+                      src={follow}
+                      alt="Follow"
+                      className="h-4 w-4 inline-block mr-2"
+                    />
+                    Follow
+                  </button>
+                </div>
+                <div>
+                  <button className="w-full  bg-[#e8e4ff] px-4 py-3 rounded-full text-[#6F62E5] text-[14px]">
+                    See All
+                  </button>
+                </div>
               </div>
             </div>
           </div>
